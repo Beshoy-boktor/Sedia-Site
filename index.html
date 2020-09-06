@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedia Furniture</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function( $ ) {
+            $('.num').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    
+                    <a class="navbar-brand" href="#"><img class="logo" src="http://www.sedia-furniture.com/images/logo.png" alt="sedia-logo"></a>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="subnav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#gallary">Gallery</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <section>
+        <!-------------------------------slider-------------------------------------->
+            <div id="carousel-example-generic" class="carousel slide row" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+                
+                    <!-- Wrapper for slides -->
+                <div class="carousel-inner row" role="listbox" id="home">
+                    <div class="item active col-xs-12">
+                        <img src="http://www.sedia-furniture.com/images/banner.jpg" alt="slider" class="slider-img">
+                        <div class="carousel-caption col-xs-12">
+                            <h3 class="wow flipInX" data-wow-duration="1s">Sedia <span class="furniture">Furniture!</span></h3>
+                            <p class="wow flipInX" data-wow-duration="1s" data-wow-delay="0.5s"><span class="creative">/creative</span> Bed Room.</p>
+                            <p class="small wow flipInX" data-wow-duration="1s" data-wow-delay="1s">- We are a team of professionals -</p>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12">
+                        <img src="http://www.sedia-furniture.com/images/banner1.jpg" alt="slider" class="slider-img">
+                        <div class="carousel-caption col-xs-12">
+                            <h3>Sedia <span class="furniture">Furniture!</span></h3>
+                            <p><span class="creative">/creative</span> Bed Room.</p>
+                            <p class="small">- We are a team of professionals -</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        <!--------------------------------end-slider---------------------------------------->
+    </section>
+    <main>
+        <!------------------------------first-container---------------------------------->
+        <section class="big-con" id="services">
+            <div class="text-center">
+                <div class="col-xs-12 heart-style2">
+                    <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+                    <h2 class="container-h wow fadeInDown" data-wow-duration="1s">Our Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 services-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <p class="container-p">Living Room</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 services-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <p class="container-p">Bed Room</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 services-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <p class="container-p">Dining Room</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 services-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <p class="container-p">Kidz Room</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="big-con2" id="gallary">
+            <div class="text-center">
+                <div class="row">
+                    <h2 class="container-h wow fadeInDown" data-wow-duration="1s">Our Gallery</h2>
+                </div>
+                <div class="row">
+					<div class="col-xs-12 heart-style wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <i class="fa fa-heart-o heart" aria-hidden="true"></i>
+                            <p class="container-p">
+                            We are making furniture, high professionalism in order to satisfy customer concerns us because the presence and professional furniture .. We support the customer with the latest modern designs.
+							</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------------end-first-container---------------------------------->
+
+        <!-----------------------------------images------------------------------------->    
+            
+            <section class="row room-menu">
+                <div class="col-xs-12 col-md-12">
+                    <div class="filter-butt">
+                        <button class="butt active wow flipInX" data-wow-duration="1s" id="all-imgs" data-filter="all">All</button>
+						<button class="butt wow flipInX" data-wow-duration="1s" id="bed" data-filter=".bed">Bed Room</button>
+						<button class="butt wow flipInX" data-wow-duration="1s" id="dining" data-filter=".dining">Dining Room</button>
+						<button class="butt wow flipInX" data-wow-duration="1s" id="dressing" data-filter=".dressing">Dressing Room</button>
+						<button class="butt wow flipInX" data-wow-duration="1s" id="kidz" data-filter=".kidz">Kidz Room</button>
+                    </div>
+                </div>
+            </section>
+            <section class="photos">
+                <div class="row filter22">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix bed img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.25s">
+							<img src="http://www.sedia-furniture.com/images/item-1.jpg" alt="dining-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix dining img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.5s">
+							<img src="http://www.sedia-furniture.com/images/item-2.jpg" alt="bed-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix bed img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.75s">
+							<img src="http://www.sedia-furniture.com/images/item-3.jpg" alt="dressing-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix dining img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="1s">
+							<img src="http://www.sedia-furniture.com/images/item-4.jpg" alt="dining-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix bed img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="1.25s">
+							<img src="http://www.sedia-furniture.com/images/item-5.jpg" alt="bed-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix dressing img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="1.5s">
+							<img src="http://www.sedia-furniture.com/images/item-6.jpg" alt="dressing-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix kidz img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="1.75s">
+							<img src="http://www.sedia-furniture.com/images/item-7.jpg" alt="kidz-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mix dressing img-container ">
+						<div class="remove wow fadeInUp " data-wow-duration="1s" data-wow-delay="2s">
+							<img src="http://www.sedia-furniture.com/images/item-8.jpg" alt="dressing-room">
+							<div class="img-hov">
+								<a class="show-me"><i class="fa fa-eye" aria-hidden="true"></i></a>
+								<p>Sedia Furniture</p>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>
+			
+			<section class="show-img">
+                <div class="big-box"></div>
+                <div class="box">
+                    <img src="http://www.sedia-furniture.com/images/item-1.jpg">
+                </div>
+            </section>
+        <!------------------------------------end-images----------------------------------->
+
+        <!------------------------------sec-container---------------------------------->
+            <section class="sec-con text-center" id="about">
+                <div class="row">
+                    <p class="container-h wow fadeInDown" data-wow-duration="1s">ABOUT US</p>
+					<div class="col-xs-12 heart-style wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+						<i class="fa fa-heart-o heart" aria-hidden="true"></i>
+						<p class="container-p">Sedia Furniture , is manufacturer of fine classic and contemporary furniture to the most established and innovative italian and european furniture designers with combination of exceptional quality , unique finishes and unparalleled customer services.</p>
+					</div>
+					<div class="col-xs-12 heart-style wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+						<i class="fa fa-heart-o heart" aria-hidden="true"></i>
+						<p class="container-p">our vision for Sedia Furniture is , to be pioneer in providing a complete solution in all design areas of residential and commercial projects we are providing the highest design quality in all aspects of furniture and finishing.</p>
+					</div>
+					<div class="col-xs-12 heart-style wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
+						<i class="fa fa-heart-o heart" aria-hidden="true"></i>
+						<p class="container-p">each piece produced by Sedia Furniture has been carefully thought out and designed with the care of an individual piece of sculpture.</p>
+					</div>
+                </div>
+            </section>
+        <!-----------------------------end-sec-container---------------------------------->
+
+        <!---------------------------------facts-container--------------------------------->
+            <section class="row facts text-center">
+                <div class="col-xs-12 sub-con ">
+                    <div class="col-xs-12 heart-style2">
+                        <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+                        <p class="fact-font wow flipInX" data-wow-duration="1s">SOME FUN FACTS</p>
+                    </div>
+                    <div class="row items col-xs-12">
+                        <div class="col-xs-12 col-sm-6 col-md-3 container-item" >
+                            <i class="fa fa-clock-o icon clock" aria-hidden="true" class="icon"></i>
+                            <div class="cont">
+                                <span class="num">12</span>
+                                <p class="cap-p">HOURS OF WORK IN DAY</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 container-item">
+                            <i class="fa fa-users icon" aria-hidden="true" class="icon"></i>
+                            <div class="cont">
+                                <p class="sm-p">More Than</p>
+                                <span class="num">500</span>
+                                <p class="cap-p">SATISFIED CLIENTS</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 container-item ">
+                            <i class="fa fa-rocket icon" aria-hidden="true" class="icon"></i>
+                            <div class="cont">
+                                <p class="sm-p">More Than</p>
+                                <span class="num">850</span>
+                                <p class="cap-p">ROOMS DELIVERED</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 container-item">
+                            <i class="fa fa-clock-o icon clock" aria-hidden="true" class="icon"></i>
+                            <div class="cont">
+                                <span class="num">2015</span>
+                                <p class="cap-p">SINCE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-----------------------------end-facts-container--------------------------------->
+
+
+        <!-----------------------------third-container--------------------------------->
+        <section class="third sec-con text-center " id="contact">
+            <div class="row">
+                <div class="col-xs-12 heart-style2 wow fadeInDown"  data-wow-duration="1s">
+                    <i class="fa fa-heart-o heart2" aria-hidden="true"></i>
+                    <p class="container-h">CONTACT US</p>
+                </div>
+                <p class="col-xs-12 container-p wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">We support the client in the course of the contract and after delivery and at any time within 24 hours .. E-mail us at any time and we will reply as soon as.</p>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 contact">
+                    <p class="contact-title">Our Contact</p>
+                    <p class="content">23 El Nasr st, Cairo, Egypt</p>
+                    <p class="content">info@sedia-furniture.com</p>
+                    <p class="content phone">(02) 25192589</p>
+                    <p class="content phone">(01) 000337906</p>
+                </div>
+
+                <div class="col-xs-12 col-md-8">
+                    <div class="row form">
+                        <form action="after_submit.php" method="POST">
+                            <p class="form-title col-xs-12">Say hello!</p>
+                            <div class="col-xs-12 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                                <input type="text" placeholder="Name" name="name" id="name">
+                                <small class="error no-name"></small>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                                <input type="text" placeholder="Email" name="email" id="email">
+                                <small class="error no-email"></small>
+                            </div>
+                            <div class="col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                                <textarea placeholder="Message" name="mess" id="mess"></textarea>
+                                <small class="error no-mess"></small>
+                            </div>
+                            <div class="col-xs-12">
+                            <p class="sent"></p>
+                            </div>
+                            <input type="submit" value="Send Message" id="sub" class="mess wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------------------------end-third-container--------------------------------->
+    </main>
+
+    <footer>
+        <!-----------------------------footer--------------------------------->
+            <section class="foot row">
+                <div class="row footer">
+                    <div class="col-xs-12 col-sm-6 col-md-3 foot-cont wow fadeInUp" data-wow-duration="1s">
+                        <img src="http://www.sedia-furniture.com/images/footer-logo.png" alt="footer-logo">
+                        <p class="foot-p1">Sedia Furniture , is manufacturer of fine classic and contemporary furniture to the most established and innovative italian and european furniture designers with combination of exceptional quality.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 foot-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <p class="foot-head">Subscribe</p>
+                        <input type="text" class="col-xs-12">
+                        <p class="foot-p">Subscribe to receive all our new.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 foot-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                        <p class="foot-head">Explore</p>
+                        <p class="foot-p">Inside Us</p>
+                        <p class="foot-p">Flickr</p>
+                        <p class="foot-p">Google</p>
+                        <p class="foot-p">Forum</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 foot-cont wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <p class="foot-head">Support</p>
+                        <p class="foot-p">Contact Us</p>
+                        <p class="foot-p">Market Blog</p>
+                        <p class="foot-p">Help Center</p>
+                        <p class="foot-p">Pressroom</p>
+                    </div>
+                </div>
+            </section>
+        <!-----------------------------footer--------------------------------->
+    </footer>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    
+    <script src="js/mixitup.min.js"></script>
+    <script>
+		var containerEl2 = document.querySelector('.filter22');
+		var mixer = mixitup(containerEl2);
+    </script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+		new WOW().init();
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#sub").click(function(e){
+                e.preventDefault();
+                var name = $("#name").val();
+                var email = $("#email").val();
+                var mess = $("#mess").val();
+                var url = "after_submit.php";
+                $.post(url, {name:name,email:email,mess:mess},function(res){
+                    if(res == "valid"){
+                        $(".sent").text("Message Sent").css("animation","fade 3s ease-in-out forwards");
+                        $(".no-name").hide();
+                        $(".no-email").hide();
+                        $(".no-mess").hide();
+                    }
+                    else{
+                        $(".no-name").show();
+                        $(".no-email").show();
+                        $(".no-mess").show();
+                        var errorarr = res.split("-");
+                        if(errorarr[0] != ""){
+                            $(".no-name").text(errorarr[0]);
+                        }else if(errorarr[1] != ""){
+                            $(".no-name").text(errorarr[1]);
+                        }else{
+                            $(".no-name").text("");
+                        }
+
+                        if(errorarr[2] != ""){
+                            $(".no-email").text(errorarr[2]);
+                        }else if(errorarr[3] != ""){
+                            $(".no-email").text(errorarr[3]);
+                        }else{
+                            $(".no-email").text("");
+                        }
+
+                        if(errorarr[4] != ""){
+                            $(".no-mess").text(errorarr[4]);
+                        }else{
+                            $(".no-mess").text("");
+                        }
+                    }
+                });
+            });
+        });
+    </script> 
+    <script src="js/script.js"></script>
+</body>
+</html>
